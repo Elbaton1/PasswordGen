@@ -1,0 +1,23 @@
+{
+  "name": "password-generator-cli",
+  "version": "1.0.0",
+  "description": "A simple Node.js CLI application to generate random passwords based on user input.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "password",
+    "generator",
+    "cli",
+    "nodejs"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  },
+  "bin": {
+    "password-generator": "./index.js"
+  }
+}
