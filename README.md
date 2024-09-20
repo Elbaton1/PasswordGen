@@ -1,4 +1,4 @@
-# Password Generator CLI
+# Password Generator
 
 ## Features
 
@@ -16,7 +16,7 @@ First, install the dependencies:
 npm install
 ```
 
-How to Add the Symbols Feature from Another Branch
+How to Add the Symbols Feature
 
 1. Checkout the `add-symbol-feature` branch:
 
