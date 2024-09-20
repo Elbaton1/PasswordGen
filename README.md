@@ -16,6 +16,26 @@ First, install the dependencies:
 npm install
 ```
 
+How to Add the Symbols Feature from Another Branch
+
+1. Checkout the `add-symbol-feature` branch:
+
+   - First, switch to the branch where the symbols feature is already implemented:
+     git checkout add-symbol-feature
+
+2. Merge the `add-symbol-feature` branch into your current branch:
+
+   - If you're on the `master` branch and want to pull in the symbols feature, run:
+     git merge add-symbol-feature
+
+3. Resolve any conflicts (if any):
+
+   - If there are any merge conflicts, resolve them in the code editor, then commit the changes.
+
+4. Push the updated branch:
+   - Once the merge is done, push the changes to the remote repository:
+     git push origin master
+
 ### Running the CLI
 
 To generate a password, run the following command in your terminal:
